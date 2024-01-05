@@ -43,11 +43,11 @@
                                     if(isset($_SESSION['username'])) {
 
                                     }else { ?>
-                                        <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/auth/login.php">Login</a></li>
-                                        <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/auth/register.php">Register</a></li>
+                                        <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/login">Login</a></li>
+                                        <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/register">Register</a></li>
                                     <?php } ?>
                                 
-                                <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/auth/logout.php">Logout</a></li>
+                                <li><a class="dropdown-item" href="http://localhost:8080/ShopCoffee/views/auth/logout.php">Logout</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
